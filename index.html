@@ -4,6 +4,21 @@
             body {
                 margin: 0;
             }
+
+            #pencil {
+                position: absolute;
+                top: 100px;
+                left: 100px;
+                z-index: 2;
+            }
+
+            #eraser {
+                position: absolute;
+                top: 100px;
+                left: 250px;
+                z-index: 2;
+            }
+
         </style>
         <script src="./p5/p5.js"></script>
         <script src="index.js"></script>
@@ -11,5 +26,7 @@
         <script src="eraser.js"></script>
     </head>
     <body>
+        <img src="images/pencil.png" id="pencil">
+        <img src="images/eraser.png" id="eraser">
     </body>
 </html>

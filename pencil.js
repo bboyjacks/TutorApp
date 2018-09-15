@@ -4,7 +4,7 @@ class Pencil
         this.r = 0;
         this.g = 0;
         this.b = 0;
-        this.weight = 1;
+        this.weight = 5;
     }
 
     set_color(r, g, b) {

@@ -7,14 +7,6 @@ function setup() {
     createCanvas (windowWidth, windowHeight);
     pencil = new Pencil;
     eraser = new Eraser;
-
-    // Pencil
-    fill(0);
-    rect(100, 100, 100, 100);
-
-    // Eraser
-    fill(100, 0, 0);
-    rect(250, 100, 100, 100);
 }
 
 function draw() {
